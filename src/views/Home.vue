@@ -1,6 +1,12 @@
 <template>
-  <div class="PhotoList">
-    <div v-for="image in images" :key="image.id" class="PhotoList_item"><img :src="image.src"></div>
+  <div>
+    <div class="PhotoList">
+      <div v-for="image in images" :key="image.id" class="PhotoList_item"><img :src="image.src"></div>
+    </div>
+    <v-container>
+      <p><code>scroll-snap</code>によるスライダーの実装、及び<code>overscroll-behavior</code>による<code>pull to refresh</code>の抑制テスト</p>
+      <p>Androidなら<code>ホーム画面に登録</code>でPWA時の表示を確認可能（iOSは試してないのでわからない）</p>
+    </v-container>
   </div>
 </template>
 
