@@ -11,8 +11,6 @@
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld.vue';
-
 export default {
   data() {
     return {
@@ -40,9 +38,6 @@ export default {
       ],
     };
   },
-  components: {
-    HelloWorld,
-  },
 };
 </script>
 
@@ -66,4 +61,3 @@ export default {
   }
 }
 </style>
-
