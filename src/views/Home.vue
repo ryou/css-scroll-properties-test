@@ -45,6 +45,7 @@ export default {
 .PhotoList {
   display: flex;
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 
   scroll-snap-type: x mandatory;
 }
